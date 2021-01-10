@@ -1,0 +1,13 @@
+1-1 将修改字符集的配置项、验证字符集的 SQL 语句作为作业内容提交
+修改字符集配置项
+[mysqld]
+character-set-server=utf8mb4
+
+[mysql]
+default-character-set=utf8mb4
+
+[client]
+default-character-set=utf8mb4
+
+修改后重启mysql
+service mysqld restart
